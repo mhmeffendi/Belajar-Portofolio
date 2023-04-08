@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>my portofolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela+Round">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the  via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#home" class="navbar-brand    page-scroll">Muhammad effendi</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#portofolio" class="page-scroll">Portofolio</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+          <li><a href="login.html" class="#" onclick="login()">Login</a></li>
+          <li><a href="login.html" class="#">Daftar</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+
+    <!-- jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/foto.png"class="img-circle">
+      <h1>Muhammad Effendi</h1>
+      <p>Conten creator | Programmer</p>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- about -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center"> About</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <p>cita-cita saya disini adalah menjadi programmer dan konten creator, saya tertarik dengan coding sejak saya smp, waktu itu saya menonton film tentang programan yang dapat mengubah apaan saja di dunia digital, sejak saat itu saya mempelajari tentang progaming dari smp saya belajar banyak dari internet. dan saya mulai memahami cara kerja progaming yang begitu rumitnya tapi sangat menyenangkan bila anda sudah tertarik dalam bidang ini, yang bikin saya tertantang adalah bagaimana kita memyelasaikan problem codingan kita yang error. saya ingin memahami lebih dalam lagi tentang progaming 
+            </p>
+          </div>
+          <div class="col-sm-5">
+            <p>
+              saya yakin di zaman modern dimana pekerjaan ini sangat dibutuhkan dimasa depan dan saya yakin bila bidang ini di gabungkan dengan sains and mathematics akan sangat mengubah dan membantu banyak orang dalam penelitian apapun. oleh sebab itu saya sangat tertarik untuk membuat project yang saya impikan seperti di film marvel, yang menciptakan IA yang begitu pintar. dan saya ingin sekali membuatnya menjadi kenyataan di dunia kita dan membantu banyak hal apapun, terutama dalam bidang penelitian.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir about -->
+
+    <!-- portofolio -->
+    <section class="portofolio" id="portofolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>portofolio</h2>
+            <hr>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/cv porto.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/part 2.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/yt bord.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/ig.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/analisis.png">
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="" class="thumbnail">
+              <img src="img/potfofolio.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir portofolio -->
+    
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Contact</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2">
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" class="form-control" placeholder="masukan nama">
+            </div>
+            <div class="form-group">
+              <label for="email">Gmail</label>
+              <input type="email" id="email" class="form-control" placeholder="masukan email">
+            </div>
+            <div class="form-group">
+              <label for="telp">No Telp</label>
+              <input type="tel" id="telp" class="form-control" placeholder="masukan no telp">
+            </div>
+            <select class="from-control">
+              <option>
+                -- pilih katagori --
+              </option>
+              <option>Saran</option>
+              <option>Kerja sama</option>
+              <option>Kritik</option>
+            </select>
+            <div class="from-group">
+              <label for="pesan">pesan</label>
+              <textarea class="form-control" rows="10" placeholder="masukkan pesan"></textarea>
+            </div>
+            <button type="sumbit"class="btn-primary">kirm pesan</button>
+          </form>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+
+
+    <!-- footer -->
+    <footer>
+    <div class="container" text-center>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>&copy 2022 | built by<a href="http://intagram.com/effendi.021102">effendi.021102</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+        <a href="http://youtube.com/Hsc.kraken" class="btn btn-danger"> <i class="glyphicon glyphicon-play"></i>subscribe to you tube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <!-- akhir footer -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+      
+    </script>
+  </body>
+</html>
